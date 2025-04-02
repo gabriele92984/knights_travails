@@ -40,3 +40,12 @@ def knight_moves(start, target)
   # Return the path array
   result
 end
+
+# Example usage:
+knight_moves([0, 0], [1, 2])
+puts
+knight_moves([0, 0], [3, 3])
+puts
+knight_moves([3, 3], [0, 0])
+puts
+knight_moves([0, 0], [7, 7])
